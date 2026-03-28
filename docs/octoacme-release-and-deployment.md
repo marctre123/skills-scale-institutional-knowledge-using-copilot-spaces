@@ -11,9 +11,10 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
+- Release notes drafted (owned by Release Manager; reviewed by Technical Writer)
 - Rollback / mitigation plan documented
-- Smoke tests prepared
+- Smoke tests prepared and signed off by QA Engineer
+- Release readiness confirmed: Product Manager (scope), QA Engineer (quality), Release Manager (deployment) — see [Roles & Responsibility Matrix](./octoacme-roles-responsibility-matrix.md#release-readiness-and-sign-off)
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
