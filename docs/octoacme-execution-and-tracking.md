@@ -10,6 +10,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **QA column**: items move here when development is complete. The QA Engineer picks up items, verifies acceptance criteria, and either moves them to Done or re-opens them as bugs assigned back to the Developer. See [Roles & Personas — QA Engineer](./octoacme-roles-and-personas.md#quality-assurance-qa-engineer).
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
